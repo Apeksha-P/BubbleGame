@@ -1,0 +1,121 @@
+body{
+    background-color: beige;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.a1{
+    background-color: purple;
+    position: relative;
+    left: 10%;
+    top: 1000px;
+    animation-name: a11;
+    animation-iteration-count: 1;
+    animation-duration: 18s;
+    animation-direction: revert;
+}
+.a2{
+    background-color: green;
+    position: relative;
+    left: 80%;
+    top: 800px;
+    animation-name: a12;
+    animation-delay: 1s;
+    animation-duration: 17s;
+}
+.a3{
+    background-color: red;
+    position: relative;
+    left: 60%;
+    top: 800px;
+    animation-name: a13;
+    animation-duration: 16s;
+}
+.a4{
+    background-color: hotpink;
+    position: relative;
+    left: 40%;
+    top: 800px;
+    animation-name: a14;
+    animation-delay: 4s;
+    animation-duration: 14s;
+}
+.b1{
+    background-color: aqua;
+    position: relative;
+    left: 70%;
+    top: 800px;
+    animation-name: b11;
+    animation-iteration-count: 1;
+    animation-duration: 30s;
+    animation-delay: s;
+    animation-direction: revert;
+}
+.b2{
+    background-color: firebrick;
+    position: relative;
+    left: 50%;
+    top: 800px;
+    animation-name: b12;
+    animation-iteration-count: 1;
+    animation-duration: 25s;
+    animation-direction: revert;
+    animation-delay: 4s;
+}
+@keyframes a11 {
+    100%{
+        left: 10%;
+        top: -200px;
+        display: none;
+    }
+
+}
+@keyframes a12 {
+    100%{
+        left: 80%;
+        top: -200px;
+        display: none;
+    }
+}
+@keyframes a13 {
+    100%{
+        left: 60%;
+        top: -300px;
+        display: none;
+    }
+}
+@keyframes a14 {
+    100%{
+        left: 40%;
+        top: -400px;
+        display: none;
+    }
+}
+@keyframes b11 {
+    100%{
+        left: 70%;
+        top: -600px;
+        display: none;
+    }
+
+}
+@keyframes b12 {
+    100%{
+        left: 50%;
+        top: -600px;
+        display: none;
+    }
+
+}
+.newClass{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: beige;
+}
