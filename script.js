@@ -1,15 +1,9 @@
-/*document.addEventListener("DOMContentLoaded", function() {
-    var divs = document.querySelectorAll('.a');
-    divs.forEach(function(div) {
-        div.addEventListener("click", function() {
-            div.remove();
-        });
-    });
-});*/
+var count = 0;
 document.addEventListener("DOMContentLoaded",function (){
     var divName = document.querySelectorAll('.a');
     divName.forEach(function (div){
         div.addEventListener("click",function (){
+            //count = count + 5;
             div.remove();
         })
     })
